@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation = "vertical">
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Student"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Driver"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="87dp" />
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Emergency"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="87dp" />
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="About Us"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="87dp" /></LinearLayout>
