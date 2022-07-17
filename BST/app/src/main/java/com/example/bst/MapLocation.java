@@ -8,6 +8,9 @@ public class MapLocation {
         this.longitude = longitude;
     }
 
+    public MapLocation() {
+    }
+
     public double getLatitude() {
         return latitude;
     }
